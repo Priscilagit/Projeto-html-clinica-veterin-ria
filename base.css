@@ -1,0 +1,112 @@
+html,
+body {
+    margin: 0;
+    
+}
+
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 900px;
+    display: flex;
+    margin: 0 auto;
+    background-color: rgb(243, 248, 246);
+}
+
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 90%;
+
+}
+.menu {
+   
+    text-align: left;
+    background-color:  rgb(214, 213, 215);
+    padding: 10px 10px 0px;
+
+}
+
+.header {
+   
+    align-self: center;
+    min-height: 100px;
+}
+.header img{
+    width: 450px;
+    height: 150px;
+    
+}
+
+.content {
+   
+    min-height: 200px;
+    padding: 5px;
+}
+.content h1{
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: medium;
+    padding-left: 5px;
+}
+.content p{
+    font-family:'Times New Roman', Times, serif;
+    text-align: left;
+    font-size:smaller;
+
+}
+.content h2{
+    font-family:'Times New Roman', Times, serif;
+    text-align: left;
+    font-size: small;
+    padding-left: 5px;
+
+}
+.content iframe{
+    width: 100px;
+    height: 100px; 
+    
+}
+.footer {
+    background-color: rgb(178, 169, 204);
+    min-height: 50px;
+}
+.footer h2, p, ol, li{
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: small;
+}
+table{
+    -webkit-box-shadow:  12px 14px 6px 5px rgba(0,0,0,0.24);
+    box-shadow: 12px 14px 6px 5px rgba(0,0,0,0.24);
+    border: solid 1px gray;
+    font-size: small;
+    width: 350px;
+    height: 100px;
+}
+.content thead th{
+   background-color: black;
+   color: white;
+}
+.content tfoot td{
+    background-color: lightgray;
+}
+.content tbody tr:nth-child(even){
+background-color: lightgray;
+}
+table tbody tr:hover td{
+background-color: rgb(94, 92, 92);
+cursor: pointer;
+}
+.content iframe {
+    width: 300px;
+    height: 100px;
+}
+
+.content form{
+    font-size: small;
+}
